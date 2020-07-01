@@ -445,7 +445,7 @@ def load_audio_score_retrieval():
     """
 
     # Give piece dir
-    collection_dir = 'msmd_aug'
+    collection_dir = '/content/msmd'
 
     piece_names = ['BachCPE__cpe-bach-rondo__cpe-bach-rondo', 'BachJS__BWV259__bwv-259']
 
