@@ -26,7 +26,7 @@ def load_piece_list(piece_names, aug_config=NO_AUGMENT):
     all_specs = []
     all_o2c_maps = []
     #comment changed range from len(piece_names) to 2
-    for ip in tqdm(len(piece_names), ncols=70):
+    for ip in tqdm(2, ncols=70):
         piece_name = piece_names[ip]
 
         try:
