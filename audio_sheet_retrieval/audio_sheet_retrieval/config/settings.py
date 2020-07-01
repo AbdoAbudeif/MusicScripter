@@ -2,8 +2,8 @@
 import os
 
 # set paths
-EXP_ROOT = "resultdumper"
-DATA_ROOT_MSMD = 'msmd'
+EXP_ROOT = "/content/sample_data"
+DATA_ROOT_MSMD = '/content/msmd'
 
 # get hostname
 hostname = os.uname()[1]
